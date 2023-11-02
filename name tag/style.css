@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.name-card {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.name-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name-card h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.name-card p {
+    font-size: 18px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.name-card-contact {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .name-card {
+        max-width: 90%;
+    }
+}
